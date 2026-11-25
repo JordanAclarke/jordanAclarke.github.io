@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jordan Clarke | AI Software Engineer</title>
-  <meta name="description" content="Jordan Clarke builds LLM-powered agents for enterprise software: tools that take real actions, ask before changing anything, and confirm only what actually happened.">
+  <meta name="description" content="Jordan Clarke builds production AI agents for enterprise software, with human approval and automated testing built in, and helps teams move faster with AI-assisted engineering.">
   <meta name="theme-color" content="#0a0c0f">
   <meta property="og:title" content="Jordan Clarke | AI Software Engineer">
-  <meta property="og:description" content="LLM-powered agents for enterprise software, built to be reliable.">
+  <meta property="og:description" content="Production AI agents for enterprise software, built to be trusted.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
       <li><a href="#experience">Experience</a></li>
       <li><a href="#method">Method</a></li>
       <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#projects">Project</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -50,7 +50,7 @@
       <div class="hero-copy">
         <h1>Jordan Clarke</h1>
         <p class="role">AI Software Engineer</p>
-        <p class="sub">I build LLM-powered agents for enterprise software, and I make them reliable: tools that take real actions, ask before changing anything, and confirm only what actually happened.</p>
+        <p class="sub">I build and ship production AI agents for enterprise software, with human approval and automated testing built in, and I accelerate engineering teams with AI-assisted development.</p>
         <div class="cta">
           <a class="btn primary" href="#experience">View experience</a>
           <a class="btn" href="Jordan_Clarke_Resume.pdf">Download résumé</a>
@@ -58,17 +58,17 @@
           <a class="btn" href="https://github.com/JordanAclarke" target="_blank" rel="noopener">GitHub</a>
         </div>
         <div class="hero-stats">
-          <div><b>Owner</b><span>of a production AI agent, from API design to rollout</span></div>
-          <div><b>3 layers</b><span>kept in sync per action: API · tools · agent layer</span></div>
-          <div><b>Several dozen</b><span>merged changes per quarter across those layers</span></div>
+          <div><b>Owner</b><span>of a production AI assistant, from design to launch</span></div>
+          <div><b>Human-approved</b><span>changes, checked against the system of record</span></div>
+          <div><b>Productivity</b><span>AI-assisted workflow and reusable skills I introduced to the team</span></div>
         </div>
         <p class="hero-meta">Currently at Workday · Previously Delta Air Lines · MBA, Clemson University</p>
       </div>
       <div class="hud" aria-hidden="true">
-        <div class="chip"><b>tool_call</b> illustrative</div>
-        <div class="chip warm"><b>approval</b> before any write</div>
-        <div class="chip"><b>evals</b> run before merge</div>
-        <div class="chip"><b>system</b> confirms the commit</div>
+        <div class="chip"><b>tool call</b> illustrative</div>
+        <div class="chip warm"><b>approval</b> before changes</div>
+        <div class="chip"><b>tests</b> before every release</div>
+        <div class="chip"><b>system of record</b> source of truth</div>
       </div>
     </div>
     <div class="scroll-cue" aria-hidden="true">scroll</div>
@@ -83,18 +83,17 @@
           <div class="when">2021 – Present</div>
           <div>
             <h3>Software Engineer</h3>
-            <div class="org">Workday · AI agents for an enterprise assistant</div>
+            <div class="org">Workday · AI assistant for enterprise customers</div>
             <ul>
-              <li><b>Own the design and delivery of a production AI agent</b> in TypeScript that executes user transactions through chat: API, tools, approval workflow, evals, and staged rollout.</li>
-              <li><b>Architected the agent to adapt to differing customer configurations</b> (custom fields, defaults, units, attachment rules), eliminating the need for per-customer flows.</li>
-              <li><b>Resolved premature “success” responses</b> so the agent confirms only changes the system has persisted.</li>
-              <li><b>Designed an eligibility-aware API</b> that limits the agent to actions a user can actually perform, preventing mis-routed workflows.</li>
-              <li><b>Led adoption of a shared human-in-the-loop approval component</b> across three tools and two codebases, requiring user approval before any change.</li>
-              <li><b>Built evaluation suites</b> that verify tool selection and input collection before every merge, and diagnose regressions using LangSmith traces.</li>
-              <li><b>Created a spec-first, human-gated workflow and reusable skills</b> for AI coding tools (Cursor, Claude Code, Codex), and presented it to the team to speed delivery without bypassing review.</li>
-              <li><b>Deliver several dozen merged changes per quarter</b> across the API, tool, and agent layers.</li>
+              <li><b>Own an AI assistant in production end to end,</b> from design to launch, that carries out real transactions on sensitive employee data through plain-language chat.</li>
+              <li><b>Ensured the assistant’s actions and answers always match the official system of record,</b> the single source of truth.</li>
+              <li><b>Put a human in control of every change:</b> led adoption of one approval experience across multiple tools and codebases.</li>
+              <li><b>Restricted the assistant to the actions each user is actually permitted to take,</b> preventing invalid and mis-routed requests.</li>
+              <li><b>Scaled a single assistant across customers</b> with widely different configurations, with no custom build per customer.</li>
+              <li><b>Built an automated test gate</b> that verifies the assistant’s behavior before anything ships.</li>
+              <li><b>Enhanced developer productivity</b> by introducing a reviewed AI-assisted workflow and reusable skills (Cursor, Claude Code, Codex), with every change still reviewed.</li>
             </ul>
-            <p class="tools"><b>Tools:</b> TypeScript · REST APIs · LLM tool calling · human-in-the-loop SDK · evals · LangSmith · Cursor · Claude Code · Codex · Git</p>
+            <p class="tools"><b>Tools:</b> TypeScript · REST APIs · LLM tool calling · human-in-the-loop approval · automated evals · LangSmith · Cursor · Claude Code · Codex · Git</p>
           </div>
         </div>
 
@@ -104,11 +103,10 @@
             <h3>Software Engineer</h3>
             <div class="org">Delta Air Lines</div>
             <ul>
-              <li><b>Engineered Java and Spring Boot services</b> and contributed to development and implementation of the Baggage Calculator.</li>
-              <li><b>Authored JUnit and Mockito unit tests,</b> verified before each release.</li>
-              <li><b>Released through CI/CD pipelines</b> on GitLab, Jenkins, SonarQube quality gates, and Nexus.</li>
-              <li><b>Collaborated in agile sprints</b> with developers, project managers, scrum masters, and QA engineers.</li>
-              <li><b>Presented monthly demos to management,</b> participated in senior-level code reviews, and delegated work to offshore developers.</li>
+              <li><b>Engineered production Java and Spring Boot services</b> within an agile team.</li>
+              <li><b>Backed every release</b> with automated unit tests and a standardized build-and-release pipeline.</li>
+              <li><b>Delivered in agile sprints</b> with developers, project managers, and QA, presenting monthly demos to management.</li>
+              <li><b>Contributed to code quality</b> through senior-level code reviews and coordinated offshore developers.</li>
             </ul>
           </div>
         </div>
@@ -117,9 +115,9 @@
       <h3 class="sub-title small">Earlier</h3>
       <ul class="earlier reveal">
         <li><div class="eh"><span><b>Software Engineering Fellow</b>, General Assembly</span><span class="d">2019</span></div>
-          <ul class="sub"><li>Completed a 12-week, 600+ hour software engineering immersive.</li><li>Built and deployed full-stack applications in JavaScript, Node.js, React, MongoDB, and SQL, including a live COVID-19 tracker on Heroku.</li></ul></li>
+          <ul class="sub"><li>Completed an intensive 600+ hour software engineering program.</li><li>Built and deployed full-stack applications in JavaScript, Node.js, React, MongoDB, and SQL, including a live COVID-19 tracker.</li></ul></li>
         <li><div class="eh"><span><b>Graduate Assistant</b>, Clemson University Testing Center</span><span class="d">2018 – 2019</span></div>
-          <ul class="sub"><li>Administered exam operations: scheduling, proctoring requests, and coordination with faculty and students.</li><li>Enforced security protocols for the receipt and return of exams.</li><li>Hired, trained, and supervised proctors; maintained training documentation and center data.</li></ul></li>
+          <ul class="sub"><li>Ran exam operations and enforced exam security protocols for the Testing Center.</li><li>Hired, trained, and supervised proctors; maintained training documentation and center data.</li></ul></li>
         <li><div class="eh"><span><b>Information Security Analyst Intern</b>, WellStar Health System</span><span class="d">2018</span></div>
           <ul class="sub"><li>Supported the information security program through vulnerability management, threat analysis, and risk assessment.</li><li>Assisted with compliance assessments, incident response, and security investigations, including digital forensics.</li></ul></li>
       </ul>
@@ -132,27 +130,28 @@
       <h2 class="title">How I build agents</h2>
       <div class="lead-grid">
         <div class="reveal">
-          <h3 class="col-title">Five principles, with evidence</h3>
+          <h3 class="col-title">Five principles of reliable agents, and how I apply them</h3>
           <ol class="principles-list">
-            <li><b>The model decides; code executes.</b> The LLM picks the action and fills the slots; deterministic code performs the transaction.
-              <small class="ev">Evidence: the agent’s tools are TypeScript services that call REST APIs, so code, not the model, performs every transaction.</small></li>
-            <li><b>A human approves before anything changes.</b>
-              <small class="ev">Evidence: led human-in-the-loop approval across three tools and two codebases.</small></li>
-            <li><b>“Done” means saved.</b> The assistant confirms only what the system committed.
-              <small class="ev">Evidence: fixed false “success” replies so confirmations match what the system saved.</small></li>
-            <li><b>Evals run before merge.</b> Descriptions are API: schemas, fixtures, and tool descriptions change together.
-              <small class="ev">Evidence: eval suites and tool-description checks run before every merge.</small></li>
-            <li><b>Fix problems in the layer that owns them.</b>
-              <small class="ev">Evidence: put improved error wording where agents actually read it while keeping public API text stable, and built an eligibility API instead of reusing UI logic.</small></li>
+            <li><b>Keep the model’s job small.</b> The model chooses the action; deterministic code carries it out.
+              <small class="ev">How I apply it: the assistant’s tools are TypeScript services that call REST APIs, so code, not the model, performs every action.</small></li>
+            <li><b>Design the tools as carefully as the prompt.</b> Clear descriptions and well-defined inputs decide how reliably an agent behaves.
+              <small class="ev">How I apply it: I author the tool descriptions and schemas and keep them in sync with the API, and I limited the assistant to the actions each user is permitted to take.</small></li>
+            <li><b>Keep humans in control of consequential actions.</b>
+              <small class="ev">How I apply it: I led adoption of one approval experience across multiple tools and codebases.</small></li>
+            <li><b>Ground the agent in a source of truth, with guardrails.</b>
+              <small class="ev">How I apply it: the assistant’s actions and answers always match the official system of record.</small></li>
+            <li><b>Make it observable, and test it before it ships.</b>
+              <small class="ev">How I apply it: an automated test gate before anything ships, and LangSmith traces to diagnose problems.</small></li>
           </ol>
+          <p class="src">Principles drawn from <a href="https://www.anthropic.com/engineering/building-effective-agents" target="_blank" rel="noopener">Anthropic</a>, <a href="https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/" target="_blank" rel="noopener">OpenAI</a>, and <a href="https://github.com/humanlayer/12-factor-agents" target="_blank" rel="noopener">12-Factor Agents</a>.</p>
         </div>
         <div class="reveal">
-          <h3 class="col-title">Skills and tooling I authored</h3>
+          <h3 class="col-title">How I enhanced developer productivity</h3>
           <ul class="lead-list">
-            <li><b>PIT dev pipeline:</b> a spec-first, human-gated, multi-repo AI development workflow with checklists, tests, and explicit sign-off before pull requests or bulk AI review fixes. I presented it to the team.</li>
-            <li><b>Local agent verification:</b> one command to run the assistant against locally built tools and confirm it actually hits your build, not just a health check.</li>
-            <li><b>Sandboxed agent environment:</b> an isolated dev VM with governed connectors so agents can run headless without bypassing corporate authentication.</li>
-            <li><b>Review and debugging playbooks:</b> structured code review, one-comment-at-a-time AI review resolution, eval and trace debugging, failing-test triage, and dev-environment setup.</li>
+            <li><b>A reviewed AI-assisted workflow:</b> spec-first and human-gated across multiple repositories, so engineers move faster with AI tools while every change still gets reviewed. I presented it to the team.</li>
+            <li><b>One-command local verification:</b> removes a recurring setup failure by letting engineers run the assistant against their own build and know it is genuinely using it, not just passing a health check.</li>
+            <li><b>A sandboxed environment for agents:</b> lets agents run unattended with governed access, without bypassing corporate authentication.</li>
+            <li><b>Senior judgment turned into reusable playbooks:</b> code review, AI review-comment handling, test-failure triage, and environment setup that any engineer can run.</li>
           </ul>
         </div>
       </div>
@@ -163,48 +162,48 @@
   <section id="skills">
     <div class="wrap">
       <h2 class="title">Skills</h2>
-      <div class="skill-main reveal">
-        <h3>AI agents</h3>
-        <ul class="chips"><li>LLM tool calling</li><li>Agent orchestration</li><li>Human-in-the-loop approvals</li><li>Eval design</li><li>Tool and prompt design</li><li>MCP tool authoring</li><li>LangSmith observability</li><li>AI-assisted development (Cursor, Claude Code, Codex)</li></ul>
+      <div class="skill-groups">
+        <div class="reveal"><h3>AI engineering</h3><ul class="chips"><li>Agent orchestration</li><li>Tool and function design</li><li>Prompt and tool-description design</li><li>MCP tool authoring</li><li>Human-in-the-loop workflows</li></ul></div>
+        <div class="reveal"><h3>Reliability and operations</h3><ul class="chips"><li>Evaluation design</li><li>Guardrails and validation</li><li>Observability and tracing (LangSmith)</li><li>Automated testing</li><li>Staged rollouts</li></ul></div>
+        <div class="reveal"><h3>Software engineering</h3><ul class="chips"><li>TypeScript</li><li>Python</li><li>REST API design</li><li>AI-assisted development (Cursor, Claude Code, Codex)</li><li>Secure sandboxed agent environments</li></ul></div>
       </div>
-      <p class="skill-secondary reveal"><b>Also:</b> TypeScript · Java · Python · REST APIs · Spring Boot · Node.js · React · SQL</p>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- PROJECT -->
   <section id="projects">
     <div class="wrap">
       <h2 class="title">AI agent project</h2>
-      <p class="lede">Selected work from my role at Workday, described at a high level.</p>
+      <p class="lede">Work from my role at Workday.</p>
 
       <article class="flagship reveal">
         <span class="flag-kicker">Flagship project</span>
-        <h3>A production AI agent for transactional workflows</h3>
-        <p class="flag-sub">Users make requests in plain language. The agent determines what is possible, requests approval, and confirms only what the system has persisted.</p>
+        <h3>A production AI assistant that acts on sensitive enterprise data</h3>
+        <p class="flag-sub">Employees submit and manage requests, such as time off and leave, through chat. The assistant takes only valid actions, asks for approval before any change, and stays consistent with the system of record.</p>
         <dl class="body">
-          <div><dt>Challenge</dt><dd>An incorrect response in chat is an incorrect business transaction. Customers configure their systems differently, and what the UI displays can differ from what the agent must send.</dd></div>
-          <div><dt>Approach</dt><dd>TypeScript tools and agent definitions that <b>adapt one agent to each customer’s configuration</b>; an eligibility-aware API that limits the agent to valid actions; edit and cancel logic scoped to exactly what was requested; and a shared approval step before every change.</dd></div>
-          <div><dt>Reliability</dt><dd>Confirmations reflect the committed state of the system, and evals and tool descriptions are verified before every merge.</dd></div>
-          <div class="out"><dt>Outcome</dt><dd>Users are offered only valid actions, nothing is confirmed until the system has persisted it, and request, edit, and cancel share a single approval experience.</dd></div>
+          <div><dt>Challenge</dt><dd>An assistant that changes enterprise records has to be correct, approved, and consistent with the official record. Every customer configures their system differently, and it has to work for each of them.</dd></div>
+          <div><dt>Approach</dt><dd>TypeScript tools and agent definitions that <b>adapt one assistant to each customer’s configuration</b>; APIs and guardrails that limit it to valid actions; a shared human approval step before changes; and automated tests before every release.</dd></div>
+          <div><dt>Source of truth</dt><dd>The system of record decides what is true. The assistant’s actions and answers are checked against it, and tests and tool descriptions are verified before every merge.</dd></div>
+          <div class="out"><dt>Outcome</dt><dd>Users complete real tasks in chat, and every action is valid, human-approved, and consistent with the official record.</dd></div>
         </dl>
-        <div class="tags"><span class="tag">Tool calling</span><span class="tag">Human-in-the-loop</span><span class="tag">Evals</span><span class="tag">Multi-customer configuration</span></div>
+        <div class="tags"><span class="tag">Tool calling</span><span class="tag">Human-in-the-loop</span><span class="tag">Automated testing</span><span class="tag">Multi-customer scale</span></div>
       </article>
 
       <h3 class="sub-title">How the agent system is built</h3>
       <div class="pipeline reveal">
-        <svg class="pipe-svg" viewBox="0 0 1000 250" role="img" aria-label="Architecture: chat assistant, agent hosting with approval schemas, tools, and REST APIs">
+        <svg class="pipe-svg" viewBox="0 0 1000 250" role="img" aria-label="Architecture: chat assistant, agent layer with approvals, tools, and the system of record">
           <rect class="fence" x="515" y="14" width="480" height="196" rx="18"/>
-          <text class="fence-t" x="535" y="38">CODE · PERFORMS THE TRANSACTION</text>
-          <text class="fence-t" x="20" y="38" style="fill:var(--dim)">LLM · CHOOSES THE ACTION</text>
+          <text class="fence-t" x="535" y="38">CODE · CARRIES OUT THE ACTION</text>
+          <text class="fence-t" x="20" y="38" style="fill:var(--dim)">AI · CHOOSES THE ACTION</text>
           <path id="rail" class="rail" d="M110 110 H890"/>
-          <g class="node hot"><rect x="20" y="65" width="180" height="90" rx="14"/><text class="k" x="38" y="92">LLM</text><text class="t" x="38" y="116">Chat assistant</text><text class="s" x="38" y="136">intent · inputs</text></g>
-          <g class="node"><rect x="270" y="65" width="200" height="90" rx="14"/><text class="k" x="288" y="92">AGENT HOSTING</text><text class="t" x="288" y="116">Registry + approvals</text><text class="s" x="288" y="136">tool descriptions · approval UI</text></g>
-          <g class="node"><rect x="545" y="65" width="200" height="90" rx="14"/><text class="k" x="563" y="92">CHAT TOOLS</text><text class="t" x="563" y="116">TypeScript tools</text><text class="s" x="563" y="136">rules · eligibility · errors</text></g>
-          <g class="node"><rect x="795" y="65" width="180" height="90" rx="14"/><text class="k" x="813" y="92">SYSTEM OF RECORD</text><text class="t" x="813" y="116">REST APIs</text><text class="s" x="813" y="136">validation · config</text></g>
+          <g class="node hot"><rect x="20" y="65" width="180" height="90" rx="14"/><text class="k" x="38" y="92">AI</text><text class="t" x="38" y="116">Chat assistant</text><text class="s" x="38" y="136">intent · details</text></g>
+          <g class="node"><rect x="270" y="65" width="200" height="90" rx="14"/><text class="k" x="288" y="92">AGENT LAYER</text><text class="t" x="288" y="116">Registry + approvals</text><text class="s" x="288" y="136">tool descriptions · approval UI</text></g>
+          <g class="node"><rect x="545" y="65" width="200" height="90" rx="14"/><text class="k" x="563" y="92">TOOLS</text><text class="t" x="563" y="116">TypeScript tools</text><text class="s" x="563" y="136">rules · validation · errors</text></g>
+          <g class="node"><rect x="795" y="65" width="180" height="90" rx="14"/><text class="k" x="813" y="92">SYSTEM OF RECORD</text><text class="t" x="813" y="116">REST APIs</text><text class="s" x="813" y="136">source of truth</text></g>
           <circle class="packet" r="5"><animateMotion dur="5.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#rail"/></animateMotion></circle>
-          <text x="20" y="232" class="s" style="font-size:11px;fill:var(--dim)">evals verified before merge</text>
+          <text x="20" y="232" class="s" style="font-size:11px;fill:var(--dim)">automated tests before every merge</text>
         </svg>
-        <div class="pipe-legend"><span>request / result</span><span class="w">employee approval step</span><span class="l">evals before merge</span></div>
+        <div class="pipe-legend"><span>request / result</span><span class="w">human approval step</span><span class="l">automated tests</span></div>
       </div>
 
       <h3 class="sub-title">What users see</h3>
@@ -216,31 +215,31 @@
             <div class="bub u">Can you update my mailing address?</div>
             <div class="bub a">Here’s the change I’ll submit. Please review.</div>
             <div class="mock-card"><h4>Approve change</h4><div class="diff"><s>12 Oak St</s><b>48 Pine Ave</b></div><div class="row"><span class="go">Approve</span><span>Edit</span><span>Cancel</span></div></div>
-            <div class="bub a ok">✓ Saved. Your address is updated.</div>
+            <div class="bub a ok">✓ Recorded. Your address is updated.</div>
           </div>
-          <figcaption>Approval first; “done” only after the system commits</figcaption>
+          <figcaption>Human approval first; the system of record stays the source of truth</figcaption>
         </figure>
         <figure class="screen reveal">
-          <div class="screen-bar"><i></i><i></i><i></i><span>Eval scenarios</span></div>
+          <div class="screen-bar"><i></i><i></i><i></i><span>Test scenarios</span></div>
           <div class="screen-body evals">
             <div class="sum"><b>What each scenario checks</b><span>illustrative</span></div>
             <div class="chk"><i></i>chooses the correct tool</div>
             <div class="chk"><i></i>collects the required inputs</div>
-            <div class="chk"><i></i>routes reads and writes correctly</div>
+            <div class="chk"><i></i>separates reading from changing data</div>
             <div class="chk"><i></i>asks before changing data</div>
             <div class="chk"><i></i>changes only the requested scope</div>
           </div>
-          <figcaption>Evals are verified before merge</figcaption>
+          <figcaption>Automated tests run before every merge</figcaption>
         </figure>
         <figure class="screen reveal">
           <div class="screen-bar"><i></i><i></i><i></i><span>Trace</span></div>
           <div class="screen-body spans">
             <div class="sp"><i class="d"></i><span>understand request</span><em>read</em></div>
-            <div class="sp"><i class="d"></i><span>choose tool</span><em>write</em></div>
+            <div class="sp"><i class="d"></i><span>choose tool</span><em>change</em></div>
             <div class="sp"><i class="d"></i><span>validate input</span><em>ok</em></div>
             <div class="sp w"><i class="d"></i><span>wait for approval</span><em>human</em></div>
-            <div class="sp"><i class="d"></i><span>commit the change</span><em>system</em></div>
-            <div class="sp"><i class="d"></i><span>confirm what happened</span><em>verified</em></div>
+            <div class="sp"><i class="d"></i><span>record the change</span><em>system</em></div>
+            <div class="sp"><i class="d"></i><span>verify against the record</span><em>verified</em></div>
             <div class="flag"><span>approval step</span><b>required</b></div>
           </div>
           <figcaption>Every step is traceable</figcaption>
@@ -264,7 +263,7 @@
   <section id="contact" class="contact">
     <div class="wrap">
       <h2 class="title">Get in touch</h2>
-      <p class="lede">Open to AI engineering roles. LinkedIn or email is the best way to reach me.</p>
+      <p class="lede">Open to AI engineering roles where agentic engineering is a priority. LinkedIn or email is the best way to reach me.</p>
       <p class="contact-line"><a href="mailto:jordanclarkemba@gmail.com">jordanclarkemba@gmail.com</a> · Atlanta</p>
       <div class="cta">
         <a class="btn primary" href="https://www.linkedin.com/in/jordanaclarke/" target="_blank" rel="noopener">LinkedIn</a>

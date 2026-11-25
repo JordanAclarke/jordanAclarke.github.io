@@ -184,3 +184,11 @@ html { scroll-padding-top: 88px; }
 .earlier .eh .d { font: 12.5px var(--mono); color: var(--accent); white-space: nowrap; }
 .earlier .sub { margin: 8px 0 0; padding: 0 0 0 18px; list-style: disc; display: grid; gap: 4px; }
 .earlier .sub li { display: list-item; padding: 0; border: 0; font-size: 14.5px; color: var(--muted); }
+
+.src { margin: 18px 0 0; font: 12px/1.6 var(--mono); color: var(--dim); }
+.src a { color: var(--muted); border-bottom: 1px solid var(--line); }
+.src a:hover { color: var(--accent); border-color: var(--accent); }
+
+/* four skill groups in a 2x2 grid */
+#skills .skill-groups { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { #skills .skill-groups { grid-template-columns: 1fr; } }
