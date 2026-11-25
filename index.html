@@ -55,7 +55,6 @@
           <a class="btn primary" href="#experience">View experience</a>
           <a class="btn" href="Jordan_Clarke_Resume.pdf">Download résumé</a>
           <a class="btn" href="https://www.linkedin.com/in/jordanaclarke/" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn" href="https://github.com/JordanAclarke" target="_blank" rel="noopener">GitHub</a>
         </div>
         <div class="hero-stats">
           <div><b>Owner</b><span>of a production AI assistant, from design to launch</span></div>
@@ -133,7 +132,7 @@
           <h3 class="col-title">Five principles of reliable agents, and how I apply them</h3>
           <ol class="principles-list">
             <li><b>Keep the model’s job small.</b> The model chooses the action; deterministic code carries it out.
-              <small class="ev">How I apply it: the assistant’s tools are TypeScript services that call REST APIs, so code, not the model, performs every action.</small></li>
+              <small class="ev">How I apply it: the assistant’s tools are services that call REST APIs, so code, not the model, performs every action.</small></li>
             <li><b>Design the tools as carefully as the prompt.</b> Clear descriptions and well-defined inputs decide how reliably an agent behaves.
               <small class="ev">How I apply it: I author the tool descriptions and schemas and keep them in sync with the API, and I limited the assistant to the actions each user is permitted to take.</small></li>
             <li><b>Keep humans in control of consequential actions.</b>
@@ -182,7 +181,7 @@
         <p class="flag-sub">Employees submit and manage requests, such as time off and leave, through chat. The assistant takes only valid actions, asks for approval before any change, and stays consistent with the system of record.</p>
         <dl class="body">
           <div><dt>Challenge</dt><dd>An assistant that changes enterprise records has to be correct, approved, and consistent with the official record. Every customer configures their system differently, and it has to work for each of them.</dd></div>
-          <div><dt>Approach</dt><dd>TypeScript tools and agent definitions that <b>adapt one assistant to each customer’s configuration</b>; APIs and guardrails that limit it to valid actions; a shared human approval step before changes; and automated tests before every release.</dd></div>
+          <div><dt>Approach</dt><dd>Tools and agent definitions that <b>adapt one assistant to each customer’s configuration</b>; APIs and guardrails that limit it to valid actions; a shared human approval step before changes; and automated tests before every release.</dd></div>
           <div><dt>Source of truth</dt><dd>The system of record decides what is true. The assistant’s actions and answers are checked against it, and tests and tool descriptions are verified before every merge.</dd></div>
           <div class="out"><dt>Outcome</dt><dd>Users complete real tasks in chat, and every action is valid, human-approved, and consistent with the official record.</dd></div>
         </dl>
@@ -198,8 +197,8 @@
           <path id="rail" class="rail" d="M110 110 H890"/>
           <g class="node hot"><rect x="20" y="65" width="180" height="90" rx="14"/><text class="k" x="38" y="92">AI</text><text class="t" x="38" y="116">Chat assistant</text><text class="s" x="38" y="136">intent · details</text></g>
           <g class="node"><rect x="270" y="65" width="200" height="90" rx="14"/><text class="k" x="288" y="92">AGENT LAYER</text><text class="t" x="288" y="116">Registry + approvals</text><text class="s" x="288" y="136">tool descriptions · approval UI</text></g>
-          <g class="node"><rect x="545" y="65" width="200" height="90" rx="14"/><text class="k" x="563" y="92">TOOLS</text><text class="t" x="563" y="116">TypeScript tools</text><text class="s" x="563" y="136">rules · validation · errors</text></g>
-          <g class="node"><rect x="795" y="65" width="180" height="90" rx="14"/><text class="k" x="813" y="92">SYSTEM OF RECORD</text><text class="t" x="813" y="116">REST APIs</text><text class="s" x="813" y="136">source of truth</text></g>
+          <g class="node"><rect x="545" y="65" width="200" height="90" rx="14"/><text class="k" x="563" y="92">TOOLS</text><text class="t" x="563" y="116">Tool layer</text><text class="s" x="563" y="136">rules · validation · API calls</text></g>
+          <g class="node"><rect x="795" y="65" width="180" height="90" rx="14"/><text class="k" x="813" y="92">SYSTEM OF RECORD</text><text class="t" x="813" y="116">Enterprise system</text><text class="s" x="813" y="136">source of truth</text></g>
           <circle class="packet" r="5"><animateMotion dur="5.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#rail"/></animateMotion></circle>
           <text x="20" y="232" class="s" style="font-size:11px;fill:var(--dim)">automated tests before every merge</text>
         </svg>
@@ -267,7 +266,6 @@
       <p class="contact-line"><a href="mailto:jordanclarkemba@gmail.com">jordanclarkemba@gmail.com</a> · Atlanta</p>
       <div class="cta">
         <a class="btn primary" href="https://www.linkedin.com/in/jordanaclarke/" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="https://github.com/JordanAclarke" target="_blank" rel="noopener">GitHub</a>
         <a class="btn" href="Jordan_Clarke_Resume.pdf">Download résumé</a>
       </div>
     </div>
